@@ -13,7 +13,7 @@ int main (){
     printf("Digite a primeira frase: ");
     fgets(frase1, sizeof(frase1), stdin);
 
-    printf("\nDigite a segunda frase: ");
+    printf("Digite a segunda frase: ");
     fgets(frase2, sizeof(frase2), stdin);
 
     int lenFrase1 = strlen(frase1);
@@ -23,7 +23,7 @@ int main (){
     {
         if (frase1[i] == frase2[count]){
             count ++;
-            if (count == lenFrase2){
+            if (count == lenFrase2 - 1){
                 vzsContido++;
                 count = 0;
             }
@@ -34,6 +34,4 @@ int main (){
     }
 
     printf("Vezes que a segunda frase aparece na primeira: %d", vzsContido);
-
-
 }
