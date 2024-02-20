@@ -22,7 +22,7 @@ int main() {
     printf("Nome da mercadoria: %s\n", nomeMercadoria);
     printf("Valor total: %.2f\n", valorTotal);
     printf("Desconto (10%%): %.2f\n", desconto);
-    printf("Valor a ser pago à vista: %.2f\n", valorAVista);
+    printf("Valor a ser pago a vista: %.2f\n", valorAVista);
 
     return 0;
 }
