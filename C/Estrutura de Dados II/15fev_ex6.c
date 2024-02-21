@@ -12,7 +12,9 @@ int main()
     printf("Digite a frase: ");
     fgets(frase, sizeof(frase), stdin);
 
-    for (int i = 0; i < strlen(frase); i++)
+    int unsigned lenFrase = strlen(frase);
+
+    for (int unsigned i = 0; i < lenFrase; i++)
     {
         char c = frase[i];
         int asc = (int)c;
